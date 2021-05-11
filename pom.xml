@@ -247,6 +247,21 @@
          <enabled>false</enabled>
        </snapshots>
     </repository>
+    <repository>
+      <id>cdh-libs-release-local</id>
+      <name>Cloudera</name>
+      <url>https://repository.cloudera.com/artifactory/libs-release-local</url>
+    </repository>
+    <repository>
+      <id>cdh-lib-staging-local</id>
+      <name>Cloudera</name>
+      <url>https://repository.cloudera.com/artifactory/libs-staging-local</url>
+    </repository>
+    <repository>
+      <id>cdh-ext-release-local</id>
+      <name>Cloudera</name>
+      <url>https://repository.cloudera.com/artifactory/ext-release-local</url>
+    </repository>
   </repositories>
 
   <!-- Hadoop dependency management is done at the bottom under profiles -->
