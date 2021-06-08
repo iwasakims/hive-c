@@ -269,7 +269,35 @@
          <enabled>false</enabled>
        </snapshots>
     </repository>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>cdh-releases-rcs</name>
+      <url>https://repository.cloudera.com/artifactory/cdh-releases-rcs</url>
+    </repository>
+    <repository>
+      <snapshots />
+      <id>snapshots</id>
+      <name>libs-snapshot</name>
+      <url>https://repository.cloudera.com/artifactory/libs-snapshot</url>
+    </repository>
+    <repository>
+      <snapshots />
+      <id>cloudera-mirror</id>
+      <name>cloudera-mirror</name>
+      <url>https://repository.cloudera.com/artifactory/cloudera-mirror</url>
+    </repository>
   </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>cdh.plugin.repo</id>
+      <name>Cloudera</name>
+      <url>https://repository.cloudera.com/artifactory/libs-release-local</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencyManagement>
     <dependencies>
